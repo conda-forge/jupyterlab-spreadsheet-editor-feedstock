@@ -3,7 +3,7 @@ About jupyterlab-spreadsheet-editor-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/jupyterlab-spreadsheet-editor-feedstock/blob/main/LICENSE.txt)
 
-Home: https://github.com/krassowski/jupyterlab-spreadsheet-editor.git
+Home: https://github.com/jupyterlab-contrib/jupyterlab-spreadsheet-editor.git
 
 Package license: CC0-1.0 AND BSD-3-Clause
 
