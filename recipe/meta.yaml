@@ -1,13 +1,13 @@
 {% set name = "jupyterlab-spreadsheet-editor" %}
-{% set version = "0.6.1" %}
+{% set version = "0.7.1" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/jupyterlab-spreadsheet-editor-{{ version }}.tar.gz
-  sha256: bffe1d08f1b1b02764d07c9878fd959cf9b15a4680e46fee52a9109009fb5a0c
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
+  sha256: 71b4e18dac80873f1a36ad880abb5cb2f09d957b233fafc66cdaefdeef075207
 
 build:
   noarch: python
